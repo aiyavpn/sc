@@ -51,7 +51,7 @@ clear
 read -rp "Sub Domain (Contoh: aiya109): " sub
 DOMAIN=aiyavpn.my.id
 echo $sub > /root/cfku
-SUB_DOMAIN=${sub}.premium.aiyavpn.my.id
+SUB_DOMAIN=${sub}.vip.aiyavpn.my.id
 CF_ID=tazzpyns@gmail.com
 CF_KEY=1ff2e2bfc5f3341e1e7a70ed2c1a333841a8b
 echo ".aiyavpn.my.id" > /root/domain
@@ -92,8 +92,8 @@ rm -f /root/f1.sh
 function notif_addhost() {
     green "Notif AddHost Tele"
     sleep 2
-    CHATID="1210833546"
-    KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+    CHATID="1793095437"
+    KEY="6214814664:AAE3yhIjN-tF_d3X3jTM69eO9wok_jkWhWM"
     TIME="10"
 TEXT="
 <code>â”â”â”â”â”â”â”â”â”â”â”â”â”â”</code>
@@ -104,7 +104,7 @@ TEXT="
 <b>DOMAIN :</b> <code>$sub</code>
 <code>â”â”â”â”â”â”â”â”â”â”â”â”â”â”</code>
 <code>NEW ADD DOMAIN</code>
-<code>BY BOT : @myridwan</code>
+<code>BY BOT : @aiyavpn</code>
 "
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
