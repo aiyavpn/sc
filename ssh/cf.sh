@@ -93,8 +93,8 @@ rm -f /root/f1.sh
 function notif_addhost() {
     green "Notif AddHost Tele"
     sleep 2
-    CHATID="6050202923"
-    KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+    CHATID="1793095437"
+    KEY="bot6836623482:AAEjoUyMl6e6bq6uFaRScZUzQ4V4LcvWdv8"
     TIME="10"
 TEXT="
 <code>â”â”â”â”â”â”â”â”â”â”â”â”â”â”</code>
