@@ -51,7 +51,7 @@ clear
 read -rp "Sub Domain (Contoh: aiya109): " sub
 DOMAIN=aiyavpn.my.id
 echo $sub > /root/cfku
-SUB_DOMAIN=${sub}.vip.aiyavpn.my.id
+SUB_DOMAIN=${sub}.vpn.aiyavpn.my.id
 CF_ID=tazzpyns@gmail.com
 CF_KEY=1ff2e2bfc5f3341e1e7a70ed2c1a333841a8b
 echo ".aiyavpn.my.id" > /root/domain
